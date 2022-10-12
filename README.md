@@ -1,6 +1,6 @@
 # HTML "Canon"
 
-> HTML exercise about unordered lists
+> HTML exercise about ordered lists
 
 * * *
 
