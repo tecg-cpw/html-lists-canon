@@ -14,121 +14,144 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*********************/
 /***   END RESET   ***/
 /*********************/
-html{
+html {
     font: normal 62.5%/1.5 Raleway, Helvetica, Arial, sans-serif;
 }
-.menu{
-	position: absolute;
-	top: 2em;
-	left: 2em;
+
+.menu {
+    position: absolute;
+    top: 2em;
+    left: 2em;
 }
-.menu li{
-	display: inline-block;
-	font-size: 2em;
+
+.menu li {
+    display: inline-block;
+    font-size: 2em;
 }
-.menu li+li{
-	margin-left: 1em;
+
+.menu li + li {
+    margin-left: 1em;
 }
-.menu a{
-	text-decoration: none;
-	color: white;
-	padding: 1em;
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
 }
-img{
-	width: 100%;
+
+img {
+    width: 100%;
 }
-h1{
-	text-align: center;
-	font-size: 3em;
-	font-weight: bold;
-	margin: 1em 0;
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 1em 0;
 }
-h1+ul{
-	width: 96em;
-	margin: 0 auto;
+
+h1 + ol {
+    width: 96em;
+    margin: 0 auto;
 }
-h1+ul>li{
-	display: inline-block;
-	width: 300px;
-	vertical-align: top;
-	margin-bottom: 3em;
+
+h1 + ol > li {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-bottom: 3em;
 }
-h1+ul>li:nth-child(3n+2){
-	margin: 0em 1em;
+
+h1 + ol > li:nth-child(3n+2) {
+    margin: 0em 1em;
 }
-h2{
-	font-size: 1.8em;
-	font-weight: bold;
-	margin-bottom: 0.5em;
-	padding-left: 2.4em;
-	position: relative;
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    padding-left: 2.4em;
+    position: relative;
 }
-h2:before{
-	content:"";
-	background-image:url('../img/cam-icon.png');
-	display: block;
-	height: 24px;
-	width: 24px;
-	background-size:24px 24px;
-	position: absolute;
-	left: 5px;
-	top: -3px;
+
+h2:before {
+    content: "";
+    background-image: url('../img/cam-icon.png');
+    display: block;
+    height: 24px;
+    width: 24px;
+    background-size: 24px 24px;
+    position: absolute;
+    left: 5px;
+    top: -3px;
 }
-ul li ul li{
-	font-size: 1.4em;
-	padding: 1em;
+
+ol li ol li {
+    font-size: 1.4em;
+    padding: 1em;
 }
-ul li ul li:nth-child(odd){
-	background-color: #fdf1f8;
+
+ol li ol li:nth-child(odd) {
+    background-color: #fdf1f8;
 }
-ul li ul li:nth-child(even){
-	background-color: #e9f1fb;
+
+ol li ol li:nth-child(even) {
+    background-color: #e9f1fb;
 }
-ul li ul li:hover{
-	color: white;
-	font-weight: bold;
+
+ol li ol li:hover {
+    color: white;
+    font-weight: bold;
 }
-ul li ul li:nth-child(odd):hover{
-	background-color: #FE6196;
+
+ol li ol li:nth-child(odd):hover {
+    background-color: #FE6196;
 }
-ul li ul li:nth-child(even):hover{
-	background-color: #97BFEC;
+
+ol li ol li:nth-child(even):hover {
+    background-color: #97BFEC;
 }
