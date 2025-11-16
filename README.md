@@ -1,4 +1,4 @@
-# HTML "Canon"
+# HTML Les listes ordonnées
 
 > HTML exercise about ordered lists
 
